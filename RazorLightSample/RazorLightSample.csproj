@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PreserveCompilationReferences>true</PreserveCompilationReferences>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="RazorLight" Version="2.0.0-rc.4" />
+    <!-- <ProjectReference Include="../RazorClassLibary/RazorClassLibary.csproj" /> -->
+    <Reference Include="RazorClassLibary">
+      <HintPath>../RazorClassLibary/bin/Debug/net5.0/RazorClassLibary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
